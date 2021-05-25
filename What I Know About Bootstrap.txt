@@ -1,0 +1,98 @@
+********************************************************
+
+<div class="jumbotron text-center">
+
+Jumbotron sayfa içinde header bir divlik yer açar. site başlangıçlarındaki o çarpıcı yazıların bulunduğu kısımdır.
+text-center diyerek yazıyı ortalamasını sağlarız.
+
+********************************************************
+
+container-fluid
+
+Yukardıdaki ifade div clasıdır. ve bu class alındığında div full ekran olur
+
+********************************************************
+
+<div class="container pt-3"></div>
+
+pt padding top 1 ile 5 arası değer alıyor üstten her sayıda 5px boşluk bırakıyor.
+pl padding left
+pr padding right
+pb padding bottom
+
+********************************************************
+
+<div class="container p-3 my-3 border">
+
+my-3 üstten ve alttan 15px boşluk verir. y nin anlamı y eksenidir mx yaparsak sağdan soldan eşit boşluk veririz.
+border kenarlık verir.
+rounded kenarlıkları yuvarlar.
+yuvarlak kenar istemiyorsak rounded-0 yapabiliriz.
+
+******************************************************
+
+row satır 
+col sütun
+col-1,2,3,4,5                       //span yani grid olayı
+col(-sm-,-md-,-lg-,-xl-)1,2,3,4,5
+
+******************************************************
+
+
+Ana Başlıklar
+h1 (2.5rem = 40px)
+h2 (2rem = 32px)
+h3 (1.75rem = 28px)
+h4 (1.5rem = 24px)
+h5 (1.25rem = 20px)
+h6 (1rem = 16px)
+
+    <h1 class="display-1">Display 1</h1>
+    <h1 class="display-2">Display 2</h1>
+    <h1 class="display-3">Display 3</h1>
+    <h1 class="display-4">Display 4</h1>
+
+Display özelliği sitenin girişinde çarpıcı Başlıklar oluşturmak içindir 
+normal h başlıklarından daha büyük ve hacimlidir.
+
+    <h1>h1 heading <small>secondary text</small></h1>
+    <h2>h2 heading <small>secondary text</small></h2>
+    <h3>h3 heading <small>secondary text</small></h3>
+    <h4>h4 heading <small>secondary text</small></h4>
+    <h5>h5 heading <small>secondary text</small></h5>
+    <h6>h6 heading <small>secondary text</small></h6>
+
+<small> etiketi ana başlık içindeki bir grup kelimeyi ikincil plana atmayı sağlar. </small>
+
+*******************************************************
+
+<p>Use the mark element to <mark style="background-color:orange">highlight</mark> text.</p>
+
+mark etiketi yazının üzerini seçtiğin renk ile fosforlu kalem gibi çizerek vurgu uygular.
+
+*******************************************************
+
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+abbr etiketi bilinmeyen bir kısaltmanın okurken ne anlama geldiğini öğrenmeniz için üzerinde fareyi durdurduğunuzda görükmesini sağlar. bu yazıların altı noktalı şekilde çizlidir.
+
+*******************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
